@@ -36,9 +36,15 @@ mögliche Anwendung:
 ### Wenn sich die Zeit im Kreis dreht ...
 
 - Ein wirklich sehr gelungenes Diagramm zur Zeitnutzung stellt dieses [Tableau Beispiel](https://public.tableau.com/en-us/s/gallery/how-najib-razak-spends-his-day-twitter "Tableau Gallery: How Najib Razak spends his day on twitter") dar
+![Time use on the Circle](https://raw.githubusercontent.com/lichthau/dataviz/master/images/time_use_radial_tableau.png "Time use on the Circle")
     - verglichen mit diesem [gruppierten Jitterplot](http://www.aware.am/articles/what-is-the-most-productive-time-of-the-day "Aware: The most productive time of the day") ist die Projektion in den Einheitskreis m.E. visuell klar überlegen 
 
- - Allgemein ist die Projektion von Zeitreihen auf den Einheitskreis eine gute Visualisierungsmethode, temporale Schwankungen zwischen Perioden zu vergleichen. 
+ - Allgemein ist die Projektion von Zeitreihen auf den Einheitskreis eine gute Visualisierungsmethode, temporale Schwankungen zwischen Perioden zu vergleichen:
+    - [Glyph graphs](http://vita.had.co.nz/papers/glyph-maps.pdf)
+
+### Zeitreihen vergleichen
+
+Diese [Grafik](https://gist.githubusercontent.com/halhen/47bc8f482b18f2d81dd405ec25a70d51/raw/b9d06d739a4d3bb1bd8cbcb31918742989959c51/out.png) 
 
 ## Verteilungen abbilden 
 
@@ -53,7 +59,7 @@ mögliche Anwendung:
 ### Beeswarm Plots
 
 - R: [Das `beeswarm` Paket](https://github.com/aroneklund/beeswarm "Github: beeswarm package"), [Anwendungsbeispiel 1](http://flowingdata.com/2016/06/28/distributions-of-annual-income/ "Flowing Data: "Shifting Incomes for American Jobs"), [Anwendungsbeispiel 2](http://johnrobertgallagher2.blogspot.de/2014/02/plotting-glucosebuddy-data-using-r.html "Plotting GlucoseBuddy Data Using R") 
-- Tableau: [*Tableau Zen: Improving Jitter plots with the hidden `RANDOM()` function*](http://ugamarkj.blogspot.de/2015/01/improving-jitter-plots-with-hidden.html "Tableau Zen: Improving Jitter plots")
+- Tableau: [Tableau Zen: Improving Jitter plots with the hidden `RANDOM()` function](http://ugamarkj.blogspot.de/2015/01/improving-jitter-plots-with-hidden.html "Tableau Zen: Improving Jitter plots")
 
 ## Prozessverläufe abbilden 
 ## Funnel Charts
@@ -63,10 +69,6 @@ mögliche Anwendung:
 
 ## Sankey Charts
 
-
-## Daily Grind
-
-https://gist.githubusercontent.com/halhen/47bc8f482b18f2d81dd405ec25a70d51/raw/b9d06d739a4d3bb1bd8cbcb31918742989959c51/out.png
 
 ## Data2Ink Verhältnis
 
