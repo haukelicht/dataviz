@@ -28,6 +28,7 @@
             - Verlustkerze = schwarz oder rot (Schlusskurs liegt unter Eröffnungskurs)
             - Gewinnkerze = weiß oder grün (Schlusskurs liegt über Eröffnungskurs)
 
+- eine weitere Erläuterung findest du auf [datavizcatalogue.com](http://www.datavizcatalogue.com/methods/candlestick_chart.html "datavizcatalogue.com: Candlestick chart")
 
 ### Wenn sich die Zeit im Kreis dreht ...
 
@@ -50,8 +51,8 @@ Diese [Grafik](https://gist.githubusercontent.com/halhen/47bc8f482b18f2d81dd405e
 
 - weit verbreitetem, visuelle intuitiv zugängliche Visualisierungsmethoden (u.a.)
     - [Boxplots](http://fawda123.github.io/diss_proc/thes_plo.pdf "github: Dissertation lengths across disciplines")
-    - Histogramme
-    - Areacharts
+    - [Histogramme](http://www.datavizcatalogue.com/methods/histogram.html "datavizcatalogue.com: Histogram")
+    - [Areacharts](http://www.datavizcatalogue.com/methods/area_graph.html "datavizcatalogue.com: Area chart")
     - [Beanplots bzw. Violinenplots](https://raw.githubusercontent.com/llimllib/bostonmarathon/master/images/ages_violin.png "Github: Boston Marathon times 2001-2014 by age group")
 
 ### Beeswarm Plots
@@ -60,6 +61,16 @@ Diese [Grafik](https://gist.githubusercontent.com/halhen/47bc8f482b18f2d81dd405e
 - Tableau: [Tableau Zen: Improving Jitter plots with the hidden `RANDOM()` function](http://ugamarkj.blogspot.de/2015/01/improving-jitter-plots-with-hidden.html "Tableau Zen: Improving Jitter plots")
 
 ### Auf den Einheitskreis projiziert
+
+- [Spider/Radar/Radial plots](http://www.datavizcatalogue.com/methods/radar_chart.html "datavizcatalogue.com: Radar Chart")
+    - erlauben den Vergleich zwischen Gruppen über verschieden Dimensionen beziehungsweise ausprägungen einer Dimension hinweg
+    - ein enger verwandter ist das [Nightingale Rose Chart](http://www.datavizcatalogue.com/methods/nightingale_rose_chart.html "datavizcatalogue.com: Nightingale Rose Chart") 
+
+![Github: Spider plot example](https://raw.githubusercontent.com/lichthau/dataviz/master/images/spider_and_distr_plots_mtcars.png "Github: Spider plot example")
+
+- R: [Code Beispiel für `ggplot2`](http://www.cmap.polytechnique.fr/~lepennec/R/Radar/RadarAndParallelPlots.html), [Code Beispile für `base`](http://www.r-graph-gallery.com/143-spider-chart-with-saveral-individuals/)
+ 
+
 
 ## Prozessverläufe abbilden 
 ## Funnel Charts
