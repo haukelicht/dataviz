@@ -9,29 +9,36 @@
 ## Zeitreihen abbilden 
 
 - häufig verwendet werden einfache Liniencharts, die zeitlich aufeinanderfolgende Beobachtungen für ein Dateneinheit mit einander verbinden.
--  
 
 ### Kerzencharts (Candelstick Charts)
 
-bild von [moderndata](http://moderndata.plot.ly/native-support-for-candlestick-charts-in-plotly-and-r/)
+- Ein Besipiel von [moderndata](http://moderndata.plot.ly/native-support-for-candlestick-charts-in-plotly-and-r/):
 
-- bildet Zeitreihen ab
-- Trends und Schwankung an Kerzenformen abzulesen
-    - dünner Strich über dem Kerzenkörper: *Docht*
-    - dünner Strich unter dem Kerzenkörper: *Lunte*
-    - oberes Ende des dünnen Strichs: Tiefstwert einer Zeiteinheit
-    - unteres Ende des dünnen Strichs: Tiefstwert einer Zeiteinheit
-    - gesamte Höhe des dünnen senkrechten Strichs zeigt die maximale Schwankungsbreite an
-    - Kerzenkörper: zeigt den Abstand zwischen Eröffnungs- und Schlussstand an (d.h. "Netto-Kursbewegung")
-    - Kolorierung:
-        - Verlustkerze = schwarz oder rot (Schlusskurs liegt unter Eröffnungskurs)
-        - Gewinnkerze = weiß oder grün (Schlusskurs liegt über Eröffnungskurs)
+![Candlestick chart](https://raw.githubusercontent.com/lichthau/dataviz/master/images/candelstick_plotlyR.png "Candlestick chart")
 
-[Hier](https://www.godmode-trader.de/analyse/kerzencharts-candlesticks-so-lese-ich-sie,742589) ein post, in dem erklärt wird, wie Kerzencharts zu lesen sind.
+- Dieser [post](https://www.godmode-trader.de/analyse/kerzencharts-candlesticks-so-lese-ich-sie,742589) erklärt, wie Kerzencharts zu lesen sind.
+    - Trends und Schwankung an Kerzenformen abzulesen
+        - dünner Strich über dem Kerzenkörper: *Docht*
+        - dünner Strich unter dem Kerzenkörper: *Lunte*
+        - oberes Ende des dünnen Strichs: Tiefstwert einer Zeiteinheit
+        - unteres Ende des dünnen Strichs: Tiefstwert einer Zeiteinheit
+        - gesamte Höhe des dünnen senkrechten Strichs zeigt die maximale Schwankungsbreite an
+        - Kerzenkörper: zeigt den Abstand zwischen Eröffnungs- und Schlussstand an (d.h. "Netto-Kursbewegung")
+        - Kolorierung:
+            - Verlustkerze = schwarz oder rot (Schlusskurs liegt unter Eröffnungskurs)
+            - Gewinnkerze = weiß oder grün (Schlusskurs liegt über Eröffnungskurs)
 
-mögliche Anwenundung:
+
+mögliche Anwendung:
 
 - Abbilden von Umfragedaten-Zeitreihen, bspw. Sonntagsfragen aggregiert über Monate, oder Quartale, wobei die Vorhersagen verschiedener Institute nach Zeitperiod und Partei zusammengefasst werden, wobei Kerzen-Ober- und -Untergrenzen die höschsten bzw. niedrigsten Umfragewerte markerien
+
+### Wenn sich die Zeit im Kreis dreht ...
+
+- Ein wirklich sehr gelungenes Diagramm zur Zeitnutzung stellt dieses [Tableau Beispiel](https://public.tableau.com/en-us/s/gallery/how-najib-razak-spends-his-day-twitter "Tableau Gallery: How Najib Razak spends his day on twitter") dar
+    - verglichen mit diesem [gruppierten Jitterplot](http://www.aware.am/articles/what-is-the-most-productive-time-of-the-day "Aware: The most productive time of the day") ist die Projektion in den Einheitskreis m.E. visuell klar überlegen 
+
+ - Allgemein ist die Projektion von Zeitreihen auf den Einheitskreis eine gute Visualisierungsmethode, temporale Schwankungen zwischen Perioden zu vergleichen. 
 
 ## Verteilungen abbilden 
 
@@ -71,7 +78,3 @@ https://gist.githubusercontent.com/halhen/47bc8f482b18f2d81dd405ec25a70d51/raw/b
 - R: https://rud.is/b/2017/03/19/exploring-2017-retail-store-closings-with-r/
 - Tableau: https://public.tableau.com/en-us/s/gallery/energy-america
 
-## Zeitnutzung abbilden
-
-- Ein wirklich sehr gelungenes Diagramm zur Zeitnutzung stellt dieses [Tableau Beispiel](https://public.tableau.com/en-us/s/gallery/how-najib-razak-spends-his-day-twitter "Tableau Gallery: How Najib Razak spends his day on twitter") dar
-    - verglichen mit diesem [gruppierten Jitterplot](http://www.aware.am/articles/what-is-the-most-productive-time-of-the-day "Aware: The most productive time of the day") ist die Projektion in den Einheitskreis m.E. visuell klar überlegen 
