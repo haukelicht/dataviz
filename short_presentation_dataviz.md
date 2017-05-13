@@ -29,10 +29,6 @@
             - Gewinnkerze = weiß oder grün (Schlusskurs liegt über Eröffnungskurs)
 
 
-mögliche Anwendung:
-
-- Abbilden von Umfragedaten-Zeitreihen, bspw. Sonntagsfragen aggregiert über Monate, oder Quartale, wobei die Vorhersagen verschiedener Institute nach Zeitperiod und Partei zusammengefasst werden, wobei Kerzen-Ober- und -Untergrenzen die höschsten bzw. niedrigsten Umfragewerte markerien
-
 ### Wenn sich die Zeit im Kreis dreht ...
 
 - Ein wirklich sehr gelungenes Diagramm zur Zeitnutzung stellt dieses [Tableau Beispiel](https://public.tableau.com/en-us/s/gallery/how-najib-razak-spends-his-day-twitter "Tableau Gallery: How Najib Razak spends his day on twitter") dar
@@ -44,9 +40,9 @@ mögliche Anwendung:
 
 ### Zeitreihen vergleichen
 
-Diese [Grafik](https://gist.githubusercontent.com/halhen/47bc8f482b18f2d81dd405ec25a70d51/raw/b9d06d739a4d3bb1bd8cbcb31918742989959c51/out.png) 
+Diese [Grafik](https://gist.githubusercontent.com/halhen/47bc8f482b18f2d81dd405ec25a70d51/raw/b9d06d739a4d3bb1bd8cbcb31918742989959c51/out.png "Github: The Daily Grind") erlaubt den Vergleich der Zeitnutzung zwischen verschieden Altersgruppen
 
-<img src="https://raw.githubusercontent.com/lichthau/dataviz/master/images/daily_grind_detail.png" width="500" align="middle">
+<img src="https://raw.githubusercontent.com/lichthau/dataviz/master/images/daily_grind_detail.png" width="500" align="middle" alt="The Daily Grind: Time spent on exercising on weekdays by daytime and age group">
 
 ## Verteilungen abbilden 
 
@@ -62,6 +58,8 @@ Diese [Grafik](https://gist.githubusercontent.com/halhen/47bc8f482b18f2d81dd405e
 
 - R: [Das `beeswarm` Paket](https://github.com/aroneklund/beeswarm "Github: beeswarm package"), [Anwendungsbeispiel 1](http://flowingdata.com/2016/06/28/distributions-of-annual-income/ "Flowing Data: "Shifting Incomes for American Jobs"), [Anwendungsbeispiel 2](http://johnrobertgallagher2.blogspot.de/2014/02/plotting-glucosebuddy-data-using-r.html "Plotting GlucoseBuddy Data Using R") 
 - Tableau: [Tableau Zen: Improving Jitter plots with the hidden `RANDOM()` function](http://ugamarkj.blogspot.de/2015/01/improving-jitter-plots-with-hidden.html "Tableau Zen: Improving Jitter plots")
+
+### Auf den Einheitskreis projiziert
 
 ## Prozessverläufe abbilden 
 ## Funnel Charts
