@@ -46,6 +46,8 @@ mögliche Anwendung:
 
 Diese [Grafik](https://gist.githubusercontent.com/halhen/47bc8f482b18f2d81dd405ec25a70d51/raw/b9d06d739a4d3bb1bd8cbcb31918742989959c51/out.png) 
 
+<img src="https://raw.githubusercontent.com/lichthau/dataviz/master/images/daily_grind_detail.png" width="500" align="middle">
+
 ## Verteilungen abbilden 
 
 - Dieser [blogpost](http://www.darkhorseanalytics.com/blog/visualizing-distributions-3 "Darkhorse Analytics: Visualizing distributions") bietet eine Übersicht über das Themengebiet. 
