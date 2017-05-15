@@ -65,7 +65,9 @@ Diese [Grafik](https://gist.githubusercontent.com/halhen/47bc8f482b18f2d81dd405e
 - [Spider/Radar/Radial plots](http://www.datavizcatalogue.com/methods/radar_chart.html "datavizcatalogue.com: Radar Chart")
     - erlauben den Vergleich zwischen Gruppen über verschieden Dimensionen beziehungsweise ausprägungen einer Dimension hinweg
     - ein enger verwandter ist das [Nightingale Rose Chart](http://www.datavizcatalogue.com/methods/nightingale_rose_chart.html "datavizcatalogue.com: Nightingale Rose Chart") 
+    - R: [Das `circular` Paket](https://CRAN.R-project.org/package=circular "CRAN: circular"), [Das `circlize` Paket](https://CRAN.R-project.org/package=circlize "CRAN: circlize"), [Anwendungsbeispiel 1](http://www.r-graph-gallery.com/portfolio/circular-plot/ "R Gaph Gallery: Circular Plot")
 
+#### Spiderplot
 ![Github: Spider plot example](https://raw.githubusercontent.com/lichthau/dataviz/master/images/spider_and_distr_plots_mtcars.png "Github: Spider plot example")
 
 - R: [Code Beispiel für `ggplot2`](http://www.cmap.polytechnique.fr/~lepennec/R/Radar/RadarAndParallelPlots.html), [Code Beispile für `base`](http://www.r-graph-gallery.com/143-spider-chart-with-saveral-individuals/)
@@ -86,8 +88,18 @@ Diese [Grafik](https://gist.githubusercontent.com/halhen/47bc8f482b18f2d81dd405e
 - R: http://www.austinwehrwein.com/data-visualization/plot-inspiration-via-fivethirtyeight/
 - Tableau: https://public.tableau.com/en-us/s/gallery/attitude-towards-migrants
 
-## Abstrahierte Geografie
+## Geografie
 
-- R: https://rud.is/b/2017/03/19/exploring-2017-retail-store-closings-with-r/
-- Tableau: https://public.tableau.com/en-us/s/gallery/energy-america
+- Darstellung von räumlichen Beziehungen zum Zweck der Kontextualisierung von Daten
+- beliebt sind sogenannte [*cloropleth*](http://www.datavizcatalogue.com/methods/choropleth.html "datavizcatalogue.com: Choropleth map"), [*dot*](http://www.datavizcatalogue.com/methods/dot_map.html "datavizcatalogue.com: Dot map") und [*bubble*](http://www.datavizcatalogue.com/methods/bubble_map.html "datavizcatalogue.com: Bubble map") Karten.
+- eine weitere Möglichkeiten zur Darstellung bietet die schematische Abstraktion von den räumlichen Einheiten: 
+    - R: [Anwendungsbeispile](https://rud.is/b/2017/03/19/exploring-2017-retail-store-closings-with-r/)
+    - Tableau: [Tableau Gallery](https://public.tableau.com/en-us/s/gallery/energy-america)
+- im Falle von cloropleth Karten ist auch die Forschung zur Optimierung der verwendenten Cholorierung erwähnenswert
+    - Cynthia Brewers [*Colorbrewer*](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3 "Colorbrewer website") ist hier ein ideale Anlaufstelle
+    -  R: das `colorbrewer Paket
 
+## Wenn das noch nicht genügt ...
+
+- auf [datavizcatalogue.com](http://www.datavizcatalogue.com/index.html "datavizcatalogue.com") findest du einen noch umfänglicheren Glosar
+- in der [R Graph Gallery](http://www.r-graph-gallery.com "R Graph Gallery") findest du neben *data art* viele Anwendungsbeispiele
