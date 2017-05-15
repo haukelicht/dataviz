@@ -6,12 +6,14 @@
     - Innovative Lösungen von Problemen werden häufig dadurch erleichtert, verschiedene Lösungsmöglichkeiten bei ihrem Namen zu kennen.
     - Zweck dieser Kollektion ist es daher, womöglich deinen technischen Wortschatz anzureichern.
 
+- Vorab eine [Übersichtsgrafik](https://www.vizualism.nl/infographic-taxonomy/):
+
+![Visualization taxonomoy](https://raw.githubusercontent.com/lichthau/dataviz/master/images/infographics_overview.png "ziczualism: Visualization taxonomoy")
+
+
 ## Verteilungen abbilden
 
 - Dieser [blogpost](http://www.darkhorseanalytics.com/blog/visualizing-distributions-3 "Darkhorse Analytics: Visualizing distributions") bietet eine Übersicht über das Themengebiet.
-- [hier](https://www.vizualism.nl/infographic-taxonomy/) ist eine Übersichtsgrafik:
-
-![Visualization taxonomoy](https://raw.githubusercontent.com/lichthau/dataviz/master/images/infographics_overview.png "ziczualism: Visualization taxonomoy")
 
 
 
