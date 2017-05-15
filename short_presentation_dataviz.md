@@ -23,10 +23,12 @@
 
 ### Verteilungen auf den Einheitskreis projiziert
 
-- [Spider/Radar/Radial plots](http://www.datavizcatalogue.com/methods/radar_chart.html "datavizcatalogue.com: Radar Chart")
+- [Spider/Radar/Radial/Circular plots](http://www.datavizcatalogue.com/methods/radar_chart.html "datavizcatalogue.com: Radar Chart")
     - erlauben den Vergleich zwischen Gruppen über verschieden Dimensionen beziehungsweise ausprägungen einer Dimension hinweg
     - ein enger verwandter ist das [Nightingale Rose Chart](http://www.datavizcatalogue.com/methods/nightingale_rose_chart.html "datavizcatalogue.com: Nightingale Rose Chart")
     - R: [Das `circular` Paket](https://CRAN.R-project.org/package=circular "CRAN: circular"), [Das `circlize` Paket](https://CRAN.R-project.org/package=circlize "CRAN: circlize"), [Anwendungsbeispiel 1](http://www.r-graph-gallery.com/portfolio/circular-plot/ "R Gaph Gallery: Circular Plot")
+
+![Circular Plot](https://raw.githubusercontent.com/lichthau/dataviz/master/images/circular_R_example.png "Github: Circular Plot")
 
 #### Spiderplot
 ![Github: Spider plot example](https://raw.githubusercontent.com/lichthau/dataviz/master/images/spider_and_distr_plots_mtcars.png "Github: Spider plot example")
