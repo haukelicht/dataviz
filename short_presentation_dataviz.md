@@ -18,22 +18,27 @@
 
 ### Beeswarm Plots
 
+![Beeswarm Plot](https://raw.githubusercontent.com/lichthau/dataviz/master/images/beeswarm_R_example.png "Github: Beeswarm Plot")
+
 - R: [Das `beeswarm` Paket](https://github.com/aroneklund/beeswarm "Github: beeswarm package"), [Anwendungsbeispiel 1](http://flowingdata.com/2016/06/28/distributions-of-annual-income/ "Flowing Data: "Shifting Incomes for American Jobs"), [Anwendungsbeispiel 2](http://johnrobertgallagher2.blogspot.de/2014/02/plotting-glucosebuddy-data-using-r.html "Plotting GlucoseBuddy Data Using R")
 - Tableau: [Tableau Zen: Improving Jitter plots with the hidden `RANDOM()` function](http://ugamarkj.blogspot.de/2015/01/improving-jitter-plots-with-hidden.html "Tableau Zen: Improving Jitter plots")
 
 ### Verteilungen auf den Einheitskreis projiziert
 
-- [Spider/Radar/Radial/Circular plots](http://www.datavizcatalogue.com/methods/radar_chart.html "datavizcatalogue.com: Radar Chart")
-    - erlauben den Vergleich zwischen Gruppen über verschieden Dimensionen beziehungsweise ausprägungen einer Dimension hinweg
+- Radial/Circular plots
+    - eine gute Alternative zum Vergleich von Ausprägungen über Gruppen hinweg (vgl. mit einer Raster-/Matrizen-Andordnung)
     - ein enger verwandter ist das [Nightingale Rose Chart](http://www.datavizcatalogue.com/methods/nightingale_rose_chart.html "datavizcatalogue.com: Nightingale Rose Chart")
-    - R: [Das `circular` Paket](https://CRAN.R-project.org/package=circular "CRAN: circular"), [Das `circlize` Paket](https://CRAN.R-project.org/package=circlize "CRAN: circlize"), [Anwendungsbeispiel 1](http://www.r-graph-gallery.com/portfolio/circular-plot/ "R Gaph Gallery: Circular Plot")
+    - R: [Das `circular` Paket](https://CRAN.R-project.org/package=circular "CRAN: circular"), [Das `circlize` Paket](https://CRAN.R-project.org/package=circlize "CRAN: circlize"), [Anwendungsbeispiel 1](http://www.r-graph-gallery.com/portfolio/circular-plot/ "R Gaph Gallery: Circular Plot"), [Anwendungsbeispiel 2](https://moderndata.plot.ly/burtins-antibiotics-visualization-in-plotly-and-r/ "moderndata.com: Burtin's Antibiotics Visualization")
 
 ![Circular Plot](https://raw.githubusercontent.com/lichthau/dataviz/master/images/circular_R_example.png "Github: Circular Plot")
 
 #### Spiderplot
-![Github: Spider plot example](https://raw.githubusercontent.com/lichthau/dataviz/master/images/spider_and_distr_plots_mtcars.png "Github: Spider plot example")
 
-- R: [Code Beispiel für `ggplot2`](http://www.cmap.polytechnique.fr/~lepennec/R/Radar/RadarAndParallelPlots.html), [Code Beispile für `base`](http://www.r-graph-gallery.com/143-spider-chart-with-saveral-individuals/)
+- [Spider/Radar charts](http://www.datavizcatalogue.com/methods/radar_chart.html "datavizcatalogue.com: Radar Chart")
+    - erlauben den Vergleich zwischen Gruppen über verschieden Dimensionen beziehungsweise ausprägungen einer Dimension hinweg
+    - R: [Code Beispiel für `ggplot2`](http://www.cmap.polytechnique.fr/~lepennec/R/Radar/RadarAndParallelPlots.html), [Code Beispile für `base`](http://www.r-graph-gallery.com/143-spider-chart-with-saveral-individuals/)
+
+![Github: Spider plot example](https://raw.githubusercontent.com/lichthau/dataviz/master/images/spider_and_distr_plots_mtcars.png "Github: Spider plot example")
 
 
 ## Zeitreihen abbilden
@@ -75,18 +80,20 @@
 ### Zeitreihen vergleichen
 
 - Diese [Grafik](https://gist.githubusercontent.com/halhen/47bc8f482b18f2d81dd405ec25a70d51/raw/b9d06d739a4d3bb1bd8cbcb31918742989959c51/out.png "Github: The Daily Grind") erlaubt den Vergleich der Zeitnutzung zwischen verschieden Altersgruppen
-    - Die Nutzung von halbtransparenten Farben, erlaubt das Übereinanderlegen von Areacharts (siehe Unten)
+    - Die Nutzung von halbtransparenten Farben, erlaubt das Übereinanderlegen von Areacharts
 
 <img src="https://raw.githubusercontent.com/lichthau/dataviz/master/images/daily_grind_detail.png" width="500" align="middle" alt="The Daily Grind: Time spent on exercising on weekdays by daytime and age group">
 
 
 ## Prozessverläufe abbilden
-## Funnel Charts
 
-- bildet Prozessabläufe ab
+- Funnel Charts für sich verjüngende Selektionsprozesse (z.B. [hier](https://moderndata.plot.ly/funnel-charts-in-python-using-plotly/ "moderndata.com: Funnel charts in Python using Plotly"))
+- [Sankey Digramme](http://www.datavizcatalogue.com/methods/sankey_diagram.html "datavizcatalogue.com: Sankey charts") für den Fluss von Quantitäten
+    - R: [Anwendungsbeispiel](http://timelyportfolio.github.io/rCharts_d3_sankey/example_build_network_sankey.html)
+    - Tableau: [Anwendungsbeispiel](https://community.tableau.com/thread/152115)
+    - Ein Beispile von [kimdatat.de](http://kimdata.de/die-entwicklung-von-wahlergebnissen-als-sankey-diagramm/ "kimdata.de: Wahlergebniss Sankey Digramm"):
 
-
-## Sankey Charts
+![Wahlergebniss-Sankey Diagramm](https://raw.githubusercontent.com/lichthau/dataviz/master/images/daily_grind_detail.png "kimdata.de: Wahlergebniss Sankey Digramm")
 
 
 ## Data2Ink Verhältnis
