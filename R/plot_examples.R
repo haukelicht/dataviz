@@ -2,6 +2,7 @@ library(circlize)
 library(RColorBrewer)
 library(scales)
 library(beeswarm)
+library(dplyr)
 
 plots <- list()
 
@@ -59,6 +60,7 @@ circos.trackHist(
   track.height = .2,
   track.index = 2
   )
+title(main = expression(italic("Diamonds are forever ...")))
 
 plots$circular <- recordPlot()
 
@@ -68,8 +70,6 @@ plot.new()
 par(mar = (c(5, 4, 4, 2) + 0.1), oma = rep(0,4))
 
 bos <- MASS::Boston
-
-library(dplyr)
 
 bos_col <- vapply(brewer.pal(n=11, "Spectral"), alpha, character(1L), .8)
 bos_col_scale <- scales::seq_gradient_pal(low = bos_col[1], high = bos_col[7], space = "Lab")
