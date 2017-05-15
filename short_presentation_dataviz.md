@@ -9,6 +9,11 @@
 ## Verteilungen abbilden
 
 - Dieser [blogpost](http://www.darkhorseanalytics.com/blog/visualizing-distributions-3 "Darkhorse Analytics: Visualizing distributions") bietet eine Übersicht über das Themengebiet.
+- [hier](https://www.vizualism.nl/infographic-taxonomy/) ist eine Übersichtsgrafik:
+
+![Visualization taxonomoy](https://raw.githubusercontent.com/lichthau/dataviz/master/images/infographics_overview.png "ziczualism: Visualization taxonomoy")
+
+
 
 - Weit verbreitete, visuelle intuitiv zugängliche Visualisierungsmethoden (u.a.)
     - [Boxplots](http://www.datavizcatalogue.com/methods/box_plot.html "datavizcatalogue.com: Bpxplots") (z.B. [hier](http://fawda123.github.io/diss_proc/thes_plo.pdf "github: Dissertation lengths across disciplines"))
@@ -87,30 +92,31 @@
 
 ## Prozessverläufe abbilden
 
-- Funnel Charts für sich verjüngende Selektionsprozesse (z.B. [hier](https://moderndata.plot.ly/funnel-charts-in-python-using-plotly/ "moderndata.com: Funnel charts in Python using Plotly"))
+### Funnel Charts
+
+- für sich verjüngende Selektionsprozesse
+    - ein Beispiel von  [moderndata](https://moderndata.plot.ly/funnel-charts-in-python-using-plotly/ "moderndata.com: Funnel charts in Python using Plotly"):
+
+![Python Funnel chart](https://raw.githubusercontent.com/lichthau/dataviz/master/images/funnelchart_plotlyR.png "Python Funnel chart")
+
+### Sankey Digramme
+
 - [Sankey Digramme](http://www.datavizcatalogue.com/methods/sankey_diagram.html "datavizcatalogue.com: Sankey charts") für den Fluss von Quantitäten
     - R: [Anwendungsbeispiel](http://timelyportfolio.github.io/rCharts_d3_sankey/example_build_network_sankey.html)
     - Tableau: [Anwendungsbeispiel](https://community.tableau.com/thread/152115)
     - Ein Beispile von [kimdatat.de](http://kimdata.de/die-entwicklung-von-wahlergebnissen-als-sankey-diagramm/ "kimdata.de: Wahlergebniss Sankey Digramm"):
 
-![Wahlergebniss-Sankey Diagramm](https://raw.githubusercontent.com/lichthau/dataviz/master/images/daily_grind_detail.png "kimdata.de: Wahlergebniss Sankey Digramm")
-
-
-## Data2Ink Verhältnis
-
-- R: http://www.austinwehrwein.com/data-visualization/plot-inspiration-via-fivethirtyeight/
-- Tableau: https://public.tableau.com/en-us/s/gallery/attitude-towards-migrants
+![Wahlergebniss-Sankey Diagramm](https://raw.githubusercontent.com/lichthau/dataviz/master/images/sankey_election_kimdata.png "kimdata.de: Wahlergebniss Sankey Digramm")
 
 ## Geografie
 
 - Darstellung von räumlichen Beziehungen zum Zweck der Kontextualisierung von Daten
-- beliebt sind sogenannte [*cloropleth*](http://www.datavizcatalogue.com/methods/choropleth.html "datavizcatalogue.com: Choropleth map"), [*dot*](http://www.datavizcatalogue.com/methods/dot_map.html "datavizcatalogue.com: Dot map") und [*bubble*](http://www.datavizcatalogue.com/methods/bubble_map.html "datavizcatalogue.com: Bubble map") Karten.
-- eine weitere Möglichkeiten zur Darstellung bietet die schematische Abstraktion von den räumlichen Einheiten:
-    - R: [Anwendungsbeispile](https://rud.is/b/2017/03/19/exploring-2017-retail-store-closings-with-r/)
-    - Tableau: [Tableau Gallery](https://public.tableau.com/en-us/s/gallery/energy-america)
-- im Falle von cloropleth Karten ist auch die Forschung zur Optimierung der verwendenten Cholorierung erwähnenswert
+- Beliebt sind sogenannte [*cloropleth*](http://www.datavizcatalogue.com/methods/choropleth.html "datavizcatalogue.com: Choropleth map"), [*dot*](http://www.datavizcatalogue.com/methods/dot_map.html "datavizcatalogue.com: Dot map") und [*bubble*](http://www.datavizcatalogue.com/methods/bubble_map.html "datavizcatalogue.com: Bubble map") Karten.
+- Eine weitere Möglichkeiten zur Darstellung bietet die schematische Abstraktion von den räumlichen Einheiten:
+    - [Anwendungsbeispiel in R](https://rud.is/b/2017/03/19/exploring-2017-retail-store-closings-with-r/), [Beispile aus der Tableau Gallery](https://public.tableau.com/en-us/s/gallery/energy-america)
+- Im Falle von cloropleth Karten ist auch die Forschung zur Optimierung der verwendenten Cholorierung erwähnenswert:
     - Cynthia Brewers [*Colorbrewer*](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3 "Colorbrewer website") ist hier ein ideale Anlaufstelle
-    -  R: das `colorbrewer Paket
+    -  R: das [`RColorBrewer`](https://CRAN.R-project.org/package=RColorBrewer "CRAN: RColorBrewer") R Paket
 
 ## Wenn das noch nicht genügt ...
 
