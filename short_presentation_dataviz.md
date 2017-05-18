@@ -10,6 +10,9 @@
 
 ![Visualization taxonomoy](https://raw.githubusercontent.com/lichthau/dataviz/master/images/infographics_overview.png "ziczualism: Visualization taxonomoy")
 
+David McCandless von [informationisbeautiful.net](http://www.informationisbeautiful.net/visualizations/what-makes-a-good-data-visualization/ "informationisbeautiful.net: What Makes a Good Vizualization") gibt außerdem seine Antwort auf die Frage, was eine gute Visualiserung ist zum besten:
+
+![A Good Vizualization?](https://raw.githubusercontent.com/lichthau/dataviz/master/images/a_good_visualization.png "informationisbeautiful.net: A Good Vizualization?")
 
 ## Verteilungen abbilden
 
