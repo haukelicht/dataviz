@@ -116,9 +116,15 @@ David McCandless von [informationisbeautiful.net](http://www.informationisbeauti
 ## Geografie
 
 - Darstellung von räumlichen Beziehungen zum Zweck der Kontextualisierung von Daten
+    - Raumdaten sind eng verbunden mit den ISO-Normen zu [*simple feauteres*](https://en.wikipedia.org/wiki/Simple_Features "Simple Features"), die unter anderem mit dem [`sf`-Paket](https://github.com/edzer/sfr "Simple Feature Access in R") zur Verwendung in R bereit gestellt werden
+    - Polygone spielen bei der Abbildung räumlicher Einheiten eine zentrale Rolle; mehr dazu [hier](https://github.com/AmeliaMN/SpatialPolygons/blob/master/SpatialAgg.pdf "Amelia McNamara: How Spatial Polygons Shape Our World")
 - Beliebt sind sogenannte [*cloropleth*](http://www.datavizcatalogue.com/methods/choropleth.html "datavizcatalogue.com: Choropleth map"), [*dot*](http://www.datavizcatalogue.com/methods/dot_map.html "datavizcatalogue.com: Dot map") und [*bubble*](http://www.datavizcatalogue.com/methods/bubble_map.html "datavizcatalogue.com: Bubble map") Karten.
-- Eine weitere Möglichkeiten zur Darstellung bietet die schematische Abstraktion von den räumlichen Einheiten:
-    - [Anwendungsbeispiel in R](https://rud.is/b/2017/03/19/exploring-2017-retail-store-closings-with-r/), [Beispile aus der Tableau Gallery](https://public.tableau.com/en-us/s/gallery/energy-america)
+    - [*DataShine Census*](datashine.org.uk "DataShine Census Dashboard") ist ein eindrucksvolles *dashboard*, das überwiegend mit chloropleth Karten verwendet 
+- Alternative zu chlorpleth maps, lassen sich soziodemografische Daten auch als räumliche Dichte-Verteilung abbilden
+    - sogenannte *dot density maps* haben den Vorteil, dass sie es erlauben die Verteilung verschiedener demografischer Gruppen im Raum abzubilden und dabei von der zugrundeliegenden Polygonen (und den administrativen, alas artifiziellen Grenzen, die diese häufig ziehen) zu abstrahieren
+    - Ein Anwendungsbeispiel in R findest du [hier](http://blog.cultureofinsight.com/2017/06/building-dot-density-maps-with-uk-census-data-in-r/ "Dot Density Maps with UK Census Data")  
+ - Eine weitere Möglichkeiten zur Darstellung bietet die schematische Abstraktion von den räumlichen Einheiten:
+    - [Anwendungsbeispiel in R](https://rud.is/b/2017/03/19/exploring-2017-retail-store-closings-with-r/), [Beispiel aus der Tableau Gallery](https://public.tableau.com/en-us/s/gallery/energy-america)
 - Im Falle von cloropleth Karten ist auch die Forschung zur Optimierung der verwendenten Cholorierung erwähnenswert:
     - Cynthia Brewers [*Colorbrewer*](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3 "Colorbrewer website") ist hier ein ideale Anlaufstelle
     -  R: das [`RColorBrewer`](https://CRAN.R-project.org/package=RColorBrewer "CRAN: RColorBrewer") R Paket
