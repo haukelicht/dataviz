@@ -14,6 +14,8 @@ David McCandless von [informationisbeautiful.net](http://www.informationisbeauti
 
 ![A Good Vizualization?](https://raw.githubusercontent.com/lichthau/dataviz/master/images/a_good_visualization.png "informationisbeautiful.net: A Good Vizualization?")
 
+Zuguterletzt lohnt es sich auch, die beiden Einträge auf [callingbullshit.org](http://callingbullshit.org/tools.html) über [irreführende Achsenabschnitte](http://callingbullshit.org/tools/tools_misleading_axes.html) und [*data-to-ink* Verhältnisse](http://callingbullshit.org/tools/tools_proportional_ink.html) zu lesen.
+
 ## Verteilungen abbilden
 
 - Dieser [blogpost](http://www.darkhorseanalytics.com/blog/visualizing-distributions-3 "Darkhorse Analytics: Visualizing distributions") bietet eine Übersicht über das Themengebiet.
